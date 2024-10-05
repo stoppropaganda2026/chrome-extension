@@ -39,7 +39,22 @@ A telepítéshez egy chrome alapú böngészőre van szükséged. Ez a bővítm�
   - Vagy a menüből a bővítmények (Extensions) almenüből válaszd ki a Bővítmények kezelése opciót (Manage extensions)
 - Kapcsold be a Fejlesztői (Developer) módot a jobb felső sarokban, különben nem tudsz ilyen módon telepíteni bővítményt
 - Mappából egérrel húzd be a crx file-t a böngésződbe a bővítményes oldalra
+- Megjelent a bővítmény telepítettként, esetlegesen még be kell kapcsold a jobb alsó sarokban
 - Kész vagy, teszteld le az egyik szennyoldalon, hogy működik-e
+
+## Mobiltelefonra telepítés (Android: Kiwi)
+
+Sajnos a legtöbb nagy böngésző nem támogat bővítményeket telefonon.
+
+Viszont van egy, ami igen: Androidon a Kiwi böngésző, és mivel az is chromium alapú, így működik rajta.
+
+- Töltsd le a crx file-t telefonnal
+- Nyisd meg a Kiwit
+- A hamburger menüből válaszd ki az Extensions menüpontot
+- Nyomj rá a "+(from .zip/.crz/.user.js)" gombra
+- Keresd ki a letöltött .crx fájlt
+- Kapcsold be a bővítményt
+- Teszteld le
 
 ## Használat
 
