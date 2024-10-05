@@ -1,0 +1,75 @@
+{
+  "manifest_version": 3,
+  "name": "STOP Propaganda (Hungarian)",
+  "version": "1.0",
+  "description": "Lecseréli a kormánypropaganda oldalain a szöveget \"STOP PROPAGANDA\"-ra.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "background"
+  ],
+  "host_permissions": [
+        "https://www.origo.hu/*",
+        "https://*.mandiner.hu/*",
+        "https://pestisracok.hu/*",
+        "https://www.pestisracok.hu/*",
+        "https://magyarnemzet.hu/*",
+        "https://*.magyarnemzet.hu/*",
+        "https://hirado.hu/*",
+        "https://*.hirado.hu/*",
+        "https://*.hirtv.hu/*",
+        "https://hirtv.hu/*",
+        "https://megafon.hu/*",
+        "https://*.megafon.hu/*",
+        "https://index.hu/*",
+        "https://*.index.hu/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.origo.hu/*",
+        "https://*.mandiner.hu/*",
+        "https://pestisracok.hu/*",
+        "https://www.pestisracok.hu/*",
+        "https://magyarnemzet.hu/*",
+        "https://*.magyarnemzet.hu/*",
+        "https://hirado.hu/*",
+        "https://*.hirado.hu/*",
+        "https://*.hirtv.hu/*",
+        "https://hirtv.hu/*",
+        "https://megafon.hu/*",
+        "https://*.megafon.hu/*",
+        "https://index.hu/*",
+        "https://*.index.hu/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["stop_propaganda.png"],
+      "matches": [
+        "https://www.origo.hu/*",
+        "https://*.mandiner.hu/*",
+        "https://pestisracok.hu/*",
+        "https://www.pestisracok.hu/*",
+        "https://magyarnemzet.hu/*",
+        "https://*.magyarnemzet.hu/*",
+        "https://hirado.hu/*",
+        "https://*.hirado.hu/*",
+        "https://*.hirtv.hu/*",
+        "https://hirtv.hu/*",
+        "https://megafon.hu/*",
+        "https://*.megafon.hu/*",
+        "https://index.hu/*",
+        "https://*.index.hu/*"
+      ]
+    }
+  ]
+}
