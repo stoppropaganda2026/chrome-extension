@@ -43,7 +43,7 @@ Miért chrome? Mert a Firefoxon és a Safarin kívül minden chrome-ot (azaz chr
 
 A bővítmény letöltőlinkjét a [Releases](https://github.com/stoppropaganda2026/chrome-extension/releases) megtalálhatod, vagy közvetlenül ezen a linken:
 
-https://github.com/stoppropaganda2026/chrome-extension/releases/download/1.0/stop_propaganda.crx
+https://github.com/stoppropaganda2026/chrome-extension/releases/download/1.1/stop_propaganda.crx
 
 ## Telepítés
 
