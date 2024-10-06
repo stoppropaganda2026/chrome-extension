@@ -12,6 +12,22 @@ Támogatott "híroldalak":
 - hirtv.hu
 - megafon.hu
 - index.hu
+- ripost.hu
+- demokrata.hu
+- metropol.hu
+- mediaklikk.hu
+- borsonline.hu
+- szabadfold.hu
+- szon.hu
+- delmagyar.hu
+- veol, zaol, kemma, baon, beol, bama, vg, nool, boon, haon, feol, duol, heol
+- kisalfold.hu
+- blikk.hu
+- delmagyar.hu
+
+## Frissítések
+
+1.1: Egy reddit poszt alapján kibővítettem valamennyire a támogatott oldalakat.  [(Poszt)](https://www.reddit.com/r/hungary/comments/1fxe5mb/ha_boycott_akkor_boycott_megpr%C3%B3b%C3%A1ltam_%C3%B6sszeszedni/)
 
 ## Motiváció
 
